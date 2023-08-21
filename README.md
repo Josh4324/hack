@@ -4,17 +4,17 @@ This Dapp connects client to Freelancers, users can create jobs and other users 
 
 ### Features
 
-Users (Client) can create Jobs
-Users (Freelancers) can apply for Jobs
-Users (Freelancers) can register information about what they do.
-Job Board that displays all available jobs.
-Escrow System that holds the money when client accept a freelancer application
-Withdraw of money made on the dapp.
+Users (Client) can create Jobs<br/>
+Users (Freelancers) can apply for Jobs<br/>
+Users (Freelancers) can register information about what they do.<br/>
+Job Board that displays all available jobs.<br/>
+Escrow System that holds the money when client accept a freelancer application<br/>
+Withdraw of money made on the dapp.<br/>
 
 ### Features in development
 
-Dispute Resolution
-Job Cancelation
+Dispute Resolution<br/>
+Job Cancelation<br/>
 
 ## Project Details
 
