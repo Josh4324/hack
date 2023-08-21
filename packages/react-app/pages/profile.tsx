@@ -278,7 +278,9 @@ export default function Profile() {
                 <input
                   required
                   step="0.1"
-                  defaultValue={profile?.earned / 10 ** 18}
+                  defaultValue={
+                    profile?.earned ? profile?.earned / 10 ** 18 : ""
+                  }
                   placeholder="John Doe"
                   className="py-[15px] sm:px-[25px] px-[15px] outline-none border-[1px] border-[#3a3a43] bg-transparent font-epilogue text-white text-[14px] placeholder:text-[#4b5264] rounded-[10px] sm:min-w-[300px]"
                 />
@@ -321,7 +323,9 @@ export default function Profile() {
                 <input
                   required
                   step="0.1"
-                  defaultValue={profile?.balance / 10 ** 18}
+                  defaultValue={
+                    profile?.balance ? profile?.balance / 10 ** 18 : ""
+                  }
                   placeholder="Write a title"
                   className="py-[15px] sm:px-[25px] px-[15px] outline-none border-[1px] border-[#3a3a43] bg-transparent font-epilogue text-white text-[14px] placeholder:text-[#4b5264] rounded-[10px] sm:min-w-[300px]"
                 />
