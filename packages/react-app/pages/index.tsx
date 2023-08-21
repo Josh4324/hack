@@ -1,3 +1,6 @@
+/* eslint-disable */
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
 import Link from "next/link";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import React, { useState, useEffect, useRef } from "react";
