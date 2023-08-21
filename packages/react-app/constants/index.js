@@ -20,19 +20,9 @@ export const navlinks = [
     link: "/jobs",
   },
   {
-    name: "withdraw",
-    imgUrl: "/assets/withdraw.svg",
-    link: "/",
-  },
-  {
     name: "profile",
     imgUrl: "/assets/profile.svg",
     link: "/profile",
-  },
-  {
-    name: "logout",
-    imgUrl: "/assets/logout.svg",
-    link: "/",
   },
 ];
 
